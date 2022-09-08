@@ -1,11 +1,13 @@
 #include <stdio.h>
+
 /**
- * main -Prints onto screen
+ * main - Entry point
  *
- * Return: zero
+ * Return: Always 0 (Success)
  */
+ 
 int main (void)
 {
-	prtintf("with proper grammar, but the outcome is a piece of art,\n");
+	prtintf("%s", "with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
