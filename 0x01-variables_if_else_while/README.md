@@ -1,1 +1,2 @@
-1. A program that will assign a random number to the variable n each time it is executed. 
+0. A program that will assign a random number to the variable n and print either positive or negative.
+1. A program that will assign a random number to the variable n and print the last digit of the number. 
