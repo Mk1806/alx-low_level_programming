@@ -1,24 +1,16 @@
 #include <stdio.h>
 
 /**
- *main -> assign a random number to the variable n each time it is executed
- *and print the last digit of the number stored in the variable n
- *Return: Always 0 (Success)
- **/
+   * main - prints alphabet in reverse
+   *
+   * Return: zero
+   */
 int main(void)
 {
-char ch;
+	char ch;
 
-for (ch = 'z'; ch >= 'a'; ch--)
-{
-putchar(ch);
-}
-for (ch = 'z'; ch >= 'a'; ch--)
-{
-putchar(ch);
-}
-
-putchar(10); /* this is an ascii code for new line*/
-
-return (0);
+	for (ch = 'z'; ch >= 'a'; ch--)
+		putchar(ch);
+	putchar('\n');
+	return (0);
 }
