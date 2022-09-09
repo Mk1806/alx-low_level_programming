@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print possible combination 0-9
+ *main - print possible combination 0-9
  *
- * Return: zero
+ *Return: zero
  */
 int main(void)
 {
