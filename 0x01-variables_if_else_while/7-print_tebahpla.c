@@ -9,11 +9,18 @@ int main(void)
 {
 	char ch;
 
+<<<<<<< HEAD
 	for (ch = 'z'; ch >= 'a'; ch--)
 	{
 
 		putchar(ch);
 	}
+=======
+for (ch = 'z'; ch >= 'a'; ch--)
+{
+putchar(ch);
+}
+>>>>>>> d5d97c047d5346dbdd868f0607be0834172eee73
 
 	putchar(10); /* this is an ascii code for new line*/
 
